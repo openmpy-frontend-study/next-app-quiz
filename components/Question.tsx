@@ -10,7 +10,7 @@ interface Props {
   withId: boolean;
   checkEnabled: boolean;
   getAnswer?: (answer: boolean) => void;
-}xs
+}
 
 const Question = ({ question, withId, checkEnabled, getAnswer }: Props) => {
   const [answer, setAnswer] = useState(0);
