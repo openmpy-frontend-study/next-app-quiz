@@ -6,14 +6,14 @@ export default function QuestionPage() {
 
   return (
     <div className={"flex flex-col space-y-4 md:space-y-8 p-4 lg:p-8"}>
-      {questions.map((question) => {
+      {questions.map((question) => (
         <Question
-          widthId={false}
+          withId={false}
           checkEnabled={true}
           key={question.id}
           question={question}
-        />;
-      })}
+        />
+      ))}
     </div>
   );
 }
