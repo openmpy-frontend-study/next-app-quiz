@@ -1,3 +1,9 @@
+import QuizForm from "@/components/QuizForm";
+
 export default function QuizPage() {
-  return <div></div>;
+  return (
+    <div>
+      <QuizForm />
+    </div>
+  );
 }
